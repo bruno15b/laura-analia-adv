@@ -13,7 +13,8 @@ jobs:
       - name: git-checkout
         uses: actions/checkout@v3
         with:
-          token: ${{ secrets.SECRET_HOSTINGER_TOKEN }}
+          ssh-key: ${{ secrets.SSH_PRIVATE_KEY }}
+          persist-credentials: false
 
       - name: Install all dependencies
         run: npm install
@@ -23,10 +24,9 @@ jobs:
 
       - name: Push
         uses: s0/git-publish-subdir-action@develop
-        with:
+        env:
           REPO: self
           BRANCH: build # The branch name where you want to push the assets
           FOLDER: build # The directory where your assets are generated
+          GITHUB_TOKEN: ${{ secrets.SECRET_HOSTINGER_TOKEN }} # GitHub will automatically add this - you don't need to bother getting a token
           MESSAGE: "Build: ({sha}) {msg}" # The commit message
-        env:
-          GITHUB_TOKEN: ${{ secrets.SECRET_HOSTINGER_TOKEN }} # Using your custom token
