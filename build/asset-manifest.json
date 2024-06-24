@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "https://advlauraanalia.com.br/static/css/main.e6c13ad2.css",
+    "main.js": "https://advlauraanalia.com.br/static/js/main.76ee247e.js",
+    "index.html": "https://advlauraanalia.com.br/index.html",
+    "main.e6c13ad2.css.map": "https://advlauraanalia.com.br/static/css/main.e6c13ad2.css.map",
+    "main.76ee247e.js.map": "https://advlauraanalia.com.br/static/js/main.76ee247e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.76ee247e.js"
+  ]
+}
