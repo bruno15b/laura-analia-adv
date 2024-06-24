@@ -2,8 +2,8 @@ import "./App.css";
 
 function App() {
   return (
-    <div>
-      <header>Site laura advogada.</header>
+    <div className="fundo">
+      <header style={{ margin: "0 auto", height: "1vh", width: "1vw" }}>Site laura advogada.</header>
     </div>
   );
 }
