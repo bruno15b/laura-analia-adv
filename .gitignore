@@ -46,8 +46,6 @@ packages/react-devtools-timeline/dist
 # testing
 /coverage
 
-# production
-/build
 
 # misc
 .DS_Store
