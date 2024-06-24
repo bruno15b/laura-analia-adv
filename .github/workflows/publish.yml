@@ -25,6 +25,8 @@ jobs:
         run: |
           git config --global user.email "brunomachado3818@gmail.com"
           git config --global user.name "bruno15b"
+          git fetch origin
+          git checkout -b prod origin/prod || git checkout prod
           git add build/
-          git commit -m "Build: (${GITHUB_SHA}) ${GITHUB_REF_NAME}"
+          git diff-index --quiet HEAD || git commit -m "Build: (${GITHUB_SHA}) ${GITHUB_REF_NAME}"
           git push origin HEAD:prod
