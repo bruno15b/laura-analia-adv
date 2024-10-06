@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "https://advlauraanalia.com.br/static/css/main.6480f9e4.css",
-    "main.js": "https://advlauraanalia.com.br/static/js/main.511ce4de.js",
+    "main.css": "https://advlauraanalia.com.br/static/css/main.e6c13ad2.css",
+    "main.js": "https://advlauraanalia.com.br/static/js/main.c1e47ef9.js",
     "index.html": "https://advlauraanalia.com.br/index.html",
-    "main.6480f9e4.css.map": "https://advlauraanalia.com.br/static/css/main.6480f9e4.css.map",
-    "main.511ce4de.js.map": "https://advlauraanalia.com.br/static/js/main.511ce4de.js.map"
+    "main.e6c13ad2.css.map": "https://advlauraanalia.com.br/static/css/main.e6c13ad2.css.map",
+    "main.c1e47ef9.js.map": "https://advlauraanalia.com.br/static/js/main.c1e47ef9.js.map"
   },
   "entrypoints": [
-    "static/css/main.6480f9e4.css",
-    "static/js/main.511ce4de.js"
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.c1e47ef9.js"
   ]
 }
